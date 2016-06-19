@@ -40,4 +40,4 @@ Keys :
 - enable/disable Phong effect : U
 - enable/disable reflection effect : I
 - enable/disable refraction effect : O
-- enable/disable Ant-Aliasiang : P
+- enable/disable Anti-Aliasiang : P
