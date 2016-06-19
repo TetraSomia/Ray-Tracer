@@ -1,5 +1,6 @@
 # Ray-Tracer
 Raytracing engine for configurable .ini files.
+Graphics library : liblapin 1.7 or more
 
 Implemented effects :
 
