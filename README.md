@@ -15,7 +15,7 @@ Implemented effects :
 
 ![Imgur](http://i.imgur.com/Ko0wFH5.png)
 
-- Bump Mappinp
+- Bump Mapping
 
 ![Imgur](http://i.imgur.com/djmonp3.jpg)
 
