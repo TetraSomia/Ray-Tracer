@@ -35,7 +35,7 @@ Handle OBJ files but take a lot of time to process.
 
 Keys :
 
-- moving camera : E-S-D-F and T-G (because of qwerty-azerty compability ! ;D)
+- moving camera : E-S-D-F and T-G (because of qwerty-azerty compatibility ! ;D)
 - rotate camera : Arrows and PG-UP/PG-DOWN
 - generate frame : SPACE
 - enable/disable Phong effect : U
