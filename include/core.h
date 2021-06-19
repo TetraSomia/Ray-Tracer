@@ -1,3 +1,4 @@
+
 /*
 ** core.h for rt in /home/josso/rendu/gfx/gfx_raytracer1
 ** 
@@ -38,7 +39,7 @@ typedef struct	s_cam
 {
   t_vec		pos;
   t_vec		rot;
-} __attribute__((__packed__)) t_cam;
+}		t_cam;
 
 typedef struct	s_cam_path
 {

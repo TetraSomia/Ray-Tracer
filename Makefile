@@ -8,20 +8,19 @@
 ## Last update Sat May 21 16:20:45 2016 Arthur Josso
 ##
 
-NAME    =	raytracer2
+NAME    =	raytracer
 
 CC	= 	gcc
 
-INC     =       ./include/
+INC     =       -I./include/ -I./liblapin/include/
 
-CFLAGS 	+=	-I$(INC) \
-		-W -Wall -Wextra -Werror -O3
+CFLAGS 	+=	$(INC) \
+		-Wall -Wextra -O3
 
-LDFLAGS +=	-I/home/${USER}/.froot/include/ \
-                -L/home/${USER}/.froot/lib/ \
-		-llapin -lsfml-audio -lsfml-graphics -lsfml-window \
-                -lsfml-system -lstdc++ -ldl -lm \
-		-lpthread
+LDFLAGS +=	-L./liblapin -llapin \
+                -lsfml-audio -lsfml-graphics \
+                -lsfml-window -lsfml-system \
+                -lstdc++ -ldl -lm -lpthread
 
 SRCS	=	./src/
 
